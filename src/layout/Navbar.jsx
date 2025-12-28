@@ -74,9 +74,9 @@ export const Navbar = () => {
         {/* CTA buttons */}
 
         <div className='hidden md:block'>
-          <Button size='sm'>
-            <a href='#contact'>Contact Me</a>
-          </Button>
+          <a href='#contact'>
+            <Button size='sm'>Contact Me</Button>
+          </a>
         </div>
 
         {/* Mobile menu button */}

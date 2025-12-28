@@ -1,9 +1,17 @@
-import { Github, Linkedin, Twitter } from 'lucide-react';
+import { Github, Instagram, Linkedin, Twitter } from 'lucide-react';
 
 const socialLinks = [
-  { icon: Github, href: '#', label: 'Github' },
-  { icon: Linkedin, href: '#', label: 'LinkedIn' },
-  { icon: Twitter, href: '#', label: 'Twitter' },
+  { icon: Github, href: 'https://github.com/ardhiS', label: 'Github' },
+  {
+    icon: Linkedin,
+    href: 'https://www.linkedin.com/in/ardhisasongko/',
+    label: 'LinkedIn',
+  },
+  {
+    icon: Instagram,
+    href: 'https://www.instagram.com/ardhi_sasongko/',
+    label: 'Twitter',
+  },
 ];
 
 const footerLinks = [
